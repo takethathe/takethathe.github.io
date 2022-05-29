@@ -236,7 +236,7 @@ function CheckAll(form)  {
                     <td bgcolor="#6699CC" style="height:1px"></td>
           </tr>
           <tr> 
-                    <td align="center" bgcolor="#E3ECF4"><table width=100% border=0 cellpadding=2><tr><td>网站名称：</td><td>乾隆大藏经</td><td>网站地址：</td><td><a href=www.qldzj.com target=_blank>www.qldzj.com</a></td></tr><tr><td>网站管理员：</td><td>摩尼宝珠居士</td><td>网站信箱：</td><td><a href='mailto:qldzj@qldzj.com'>qldzj@qldzj.com</a></td></tr><tr><td width=14% height=22 valign=top>网站介绍：</td><td colspan=3>123</td></tr><tr><td colspan=4><hr size=1 noshade></td></tr><tr><td>总访问人数：</td><td width=41% >611446</td><td width=14% >开始统计日期：</td><td width=31% >2004/5/26</td></tr><tr><td>今日访问量：</td><td>0</td><td>本月访问量：</td><td>0</td></tr><tr><td>统计天数：</td><td>6570</td><td>平均日访问量：</td><td>93</td></tr><td>整站页面刷新：</td><td>933669</td><td>预计本日访问量：</td><td>0</td></tr></table><br></td>
+                    <td align="center" bgcolor="#E3ECF4"><table width=100% border=0 cellpadding=2><tr><td>网站名称：</td><td>乾隆大藏经</td><td>网站地址：</td><td><a href="qldzj.html" target=_blank>www.qldzj.com</a></td></tr><tr><td>网站管理员：</td><td>摩尼宝珠居士</td><td>网站信箱：</td><td><a href='mailto:qldzj@qldzj.com'>qldzj@qldzj.com</a></td></tr><tr><td width=14% height=22 valign=top>网站介绍：</td><td colspan=3>123</td></tr><tr><td colspan=4><hr size=1 noshade></td></tr><tr><td>总访问人数：</td><td width=41% >611446</td><td width=14% >开始统计日期：</td><td width=31% >2004/5/26</td></tr><tr><td>今日访问量：</td><td>0</td><td>本月访问量：</td><td>0</td></tr><tr><td>统计天数：</td><td>6570</td><td>平均日访问量：</td><td>93</td></tr><td>整站页面刷新：</td><td>933669</td><td>预计本日访问量：</td><td>0</td></tr></table><br></td>
           </tr>
         </table> </TD>
               <TD width=1 bgColor=#6699CC></TD>
