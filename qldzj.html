@@ -382,6 +382,20 @@ color: #ff0000;
 				.submit{width: 160px;}    
 				.search{width: 980px;}
 			}
+/* 幻灯CSS */
+
+#flash{width:1200px;height: 535px;margin: 50px auto;position: relative;}
+#flash #play{width:1200px;height: 535px;list-style: none;position:absolute;top:0px;left:0px;}
+#flash #play li{display: none;position:absolute;top:0px;left:0px;}
+#flash #play li img{float: left;}
+#button{position: absolute;bottom:20px;left:470px;list-style: none;}
+#button li{margin-left: 10px;float: left;}
+#button li div{width:12px;height: 12px;background:#DDDDDD;border-radius: 6px;cursor: pointer;}
+#prev{width:40px;height:63px;background:url(beijing.png) 0px 0px;position: absolute;top:205px;left:10px;z-index: 1000;}
+#next{width:40px;height:63px;background:url(beijing.png) -40px 0px;position: absolute;top:205px;right:10px;z-index: 1000;}
+#prev:hover{background:url(beijing.png) 0px -62px;}
+#next:hover{background:url(beijing.png) -40px -62px;}
+/* #hui {display: none;} */
 		</style>
 
 		<script type="text/javascript">
@@ -400,6 +414,7 @@ color: #ff0000;
 
 	<body>
 		<!-- <bgsound src="music/music.mp3" loop="-1"></bgsound> -->
+		<p align="center"><img src="images/jile.jpg" width="70%" alt="极乐世界" title="极乐世界"/></p>
 		<div class=top>
 			<div id="hui"  class="page_nav">
 				<ul >　　乾  隆  大  藏  经</ul>
@@ -409,15 +424,16 @@ color: #ff0000;
 				<ul >　　自净其意　是诸佛教</ul>
 				<ul >　　忆佛念佛　必定见佛</ul>
 				<ul >　　是心做佛　是心是佛</ul>
-			</div>
-		</div>
+			</div><br>
+		</div><br>
 		<!--模块 begin-->
 
 		<div class="module-boxA">
 			<div class="module-boxA-hd">
 				<h3 class="module-boxA-tit">　龙藏各部</h3>
 			</div>
-				<ul class="module-listA">
+			<div class="module-boxB-bd">
+				<ul class="module-listB">
 					<li><a href="html/ml01.htm"  target=_blank>大乘般若部</a></li>
 					<li><a href="html/ml02.htm"  target=_blank>大乘宝积部</a></li>
 					<li><a href="html/ml03.htm"  target=_blank>大乘大集部</a></li>
@@ -445,8 +461,8 @@ color: #ff0000;
 	<div class="module-boxA-hd">
 		<h3 class="module-boxA-tit">　常诵经典</h3>
 	</div>
-	<!--div class="module-boxB-bd"-->
-		<ul class="module-listA">
+	<div class="module-boxB-bd">
+		<ul class="module-listB">
 			<li><a href="htmljw/0017.htm"  target=_blank>般若波罗蜜多心经</a></li>
 			<li><a href="htmljw/0010.htm"  target=_blank>金刚般若波罗蜜经</a></li>
 			<li><a href="htmljw/0022.htm"  target=_blank>佛说无量清净平等觉经</a></li>
@@ -496,14 +512,13 @@ color: #ff0000;
 			<li><a href="lybr/1.htm"  target=_blank>至尊宗喀巴《佛理精华缘起理赞》</a></li>
 			<li><a href="lybr/2.htm"  target=_blank>《密勒日巴尊者传》</a></li>
 		</ul>
-	<h3 class="module-boxA-t">
-　　《乾隆大藏经》为清代官刻汉文大藏经，亦称《清藏》，又因经页边栏饰以龙纹名《龙藏》。它始刻于清雍正十一年（1733），完成于乾隆三年（1738）。全藏共收录经、律、论、杂著等1669部，7168卷。<br>
-　　本站为《龙藏》的简体中文版网站，宗旨是提倡直接阅读佛经原典。欢迎大家阅读校对，如发现错误请到 <a href="https://github.com/qldzj/qldzj/issues">issues</a>告知。愿本站能为大家“开佛知见、示佛知见、悟佛知见、入佛知见”提供机缘。
-</h3>
+		<h3 class="module-boxA-t">
+	　　《乾隆大藏经》为清代官刻汉文大藏经，亦称《清藏》，又因经页边栏饰以龙纹名《龙藏》。它始刻于清雍正十一年（1733），完成于乾隆三年（1738）。全藏共收录经、律、论、杂著等1669部，7168卷。<br>
+	　　本站为《龙藏》的简体中文版网站，宗旨是提倡直接阅读佛经原典。欢迎大家阅读校对，如发现错误请到 <a href="https://github.com/qldzj/qldzj/issues">issues</a>告知。愿本站能为大家“开佛知见、示佛知见、悟佛知见、入佛知见”提供机缘。
+		</h3>
 	</div>
 </div>
 <!--模块 end-->
-</div>
 <!--底部 begin-->
 
 <footer class="m_footer">
@@ -515,7 +530,6 @@ color: #ff0000;
   </footer><!--<script type="text/javascript" src="js/footdaohang.js"></script>-->
   
   <!--底部 end-->
-  </div>
 	</body>
 </html>
 <SCRIPT type=text/javascript>
