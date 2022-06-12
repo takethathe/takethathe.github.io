@@ -8,4 +8,4 @@
 
 ## 哲学
 
-* [大藏经](qldzj.html)
+* [大藏经](https://www.takethathe.top/qldzj.html)
